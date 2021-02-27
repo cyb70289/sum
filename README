@@ -1,0 +1,33 @@
+Evaluate performance and accuracy of summation algorithms
+
+- sum_naive: naive summation, slowest, bad accuracy
+- sum_pairwise_recur: recursive pairwise sum, good accuracy
+- sum_pairwise_itera: non-recursive parirwise sum, fastest, good accuracy
+
+Apple M1
+--------------------------------------------------------------------
+Benchmark                          Time             CPU   Iterations
+--------------------------------------------------------------------
+BM_naive/4096                   3771 ns         3771 ns       183780
+BM_naive/65536                 61464 ns        61464 ns        11302
+BM_naive/1048576              986057 ns       986058 ns          706
+BM_pairwise_recur/4096          2050 ns         2050 ns       340720
+BM_pairwise_recur/65536        32807 ns        32807 ns        21337
+BM_pairwise_recur/1048576     537114 ns       537119 ns         1272
+BM_pairwise_itera/4096           903 ns          903 ns       770001
+BM_pairwise_itera/65536        13817 ns        13818 ns        50421
+BM_pairwise_itera/1048576     227697 ns       227697 ns         3062
+
+Ryzen 5 4500U
+--------------------------------------------------------------------
+Benchmark                          Time             CPU   Iterations
+--------------------------------------------------------------------
+BM_naive/4096                   5324 ns         5324 ns       130818
+BM_naive/65536                 89220 ns        89220 ns         8052
+BM_naive/1048576             1476718 ns      1476726 ns          450
+BM_pairwise_recur/4096          3027 ns         3027 ns       231354
+BM_pairwise_recur/65536        44610 ns        44610 ns        15664
+BM_pairwise_recur/1048576     970653 ns       970633 ns          678
+BM_pairwise_itera/4096          1864 ns         1864 ns       384725
+BM_pairwise_itera/65536        21191 ns        21191 ns        29994
+BM_pairwise_itera/1048576     854482 ns       854482 ns          811

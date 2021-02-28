@@ -22,12 +22,12 @@ Ryzen 5 4500U
 --------------------------------------------------------------------
 Benchmark                          Time             CPU   Iterations
 --------------------------------------------------------------------
-BM_naive/4096                   5324 ns         5324 ns       130818
-BM_naive/65536                 89220 ns        89220 ns         8052
-BM_naive/1048576             1476718 ns      1476726 ns          450
-BM_pairwise_recur/4096          3027 ns         3027 ns       231354
-BM_pairwise_recur/65536        44610 ns        44610 ns        15664
-BM_pairwise_recur/1048576     970653 ns       970633 ns          678
-BM_pairwise_itera/4096          1864 ns         1864 ns       384725
-BM_pairwise_itera/65536        21191 ns        21191 ns        29994
-BM_pairwise_itera/1048576     854482 ns       854482 ns          811
+BM_naive/4096                   3190 ns         3190 ns       219190
+BM_naive/65536                 52609 ns        52609 ns        11968
+BM_naive/1048576              878888 ns       878888 ns          794
+BM_pairwise_recur/4096          1711 ns         1711 ns       413176
+BM_pairwise_recur/65536        26952 ns        26952 ns        27751
+BM_pairwise_recur/1048576     590021 ns       590022 ns         1147
+BM_pairwise_itera/4096          1072 ns         1072 ns       652425
+BM_pairwise_itera/65536        17174 ns        17174 ns        41780
+BM_pairwise_itera/1048576     505832 ns       505833 ns         1256

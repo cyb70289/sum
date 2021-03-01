@@ -31,3 +31,17 @@ BM_pairwise_recur/1048576     590021 ns       590022 ns         1147
 BM_pairwise_itera/4096          1072 ns         1072 ns       652425
 BM_pairwise_itera/65536        17174 ns        17174 ns        41780
 BM_pairwise_itera/1048576     505832 ns       505833 ns         1256
+
+Xeon Gold 5218
+-----------------------------------------------------------------
+Benchmark                          Time           CPU Iterations
+-----------------------------------------------------------------
+BM_naive/4096                   7060 ns       7060 ns      99137
+BM_naive/65536                114232 ns     114234 ns       6127
+BM_naive/1048576             1831420 ns    1831404 ns        382
+BM_pairwise_recur/4096          2496 ns       2497 ns     280879
+BM_pairwise_recur/65536        41360 ns      41360 ns      16926
+BM_pairwise_recur/1048576     681734 ns     681730 ns       1027
+BM_pairwise_itera/4096          2170 ns       2170 ns     322486
+BM_pairwise_itera/65536        34210 ns      34211 ns      20458
+BM_pairwise_itera/1048576     565401 ns     565414 ns       1237

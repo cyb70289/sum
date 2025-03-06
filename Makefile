@@ -1,6 +1,6 @@
 CXX = g++
 CPPFLAGS = -g -O3 -Wall
-CXXFLAGS = -std=c++11
+CXXFLAGS = -std=c++17 -msse4.2
 LDLIBS = -lbenchmark -lgtest -lpthread
 
 SYSTEM := $(shell uname -s)
